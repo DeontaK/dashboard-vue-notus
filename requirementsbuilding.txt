@@ -9,9 +9,9 @@ Auth
   login
   register
   
-Index
+Index (go here at the beginning when you aren't logged in yet)
 
-Landing
+Landing (once you are logged in it takes you to the landing page which is like the central hub; choose there you want to go: channels corner, admin corner if applicable, contact us, profile)
 
 Profile
   read-only
