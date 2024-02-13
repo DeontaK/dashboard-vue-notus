@@ -145,7 +145,7 @@ Channels -- begins channels content (admin can create,manage, delete, and browse
     Manageable Operator
     Association
     Relationship (follower, downline,team member, etc)
-    Team ( a person has a specific "team member" association with any respective team)
+    Team ( a person has a specific "team member" association with any respective team) (functions as a group chat of sorts)
     Channel (global, motivation, finance, health, emotional-health, etc) (a channel is just a free entity. Like "I am a channel. If you can get to me you can see me" Visibility restrictions controlled by the "role" on the managable operator.
     Question
     Response
@@ -154,3 +154,5 @@ Channels -- begins channels content (admin can create,manage, delete, and browse
     Post (posts can be made from a specific operator to a specific team or channel) (admin have priviledge on posts and events to turn message into push/bell notification) (the blob on the post itself can only hold a set amount of data (ex.: 25MB). This data can be text, image or video.
     Roles (used as foreign key on operator instance; partner, admin, new partner, etc)
     Notification (notification instance ; send to specific person or distro of people or team, or everyone)
+
+Teams vs Channel is like posting to a group chat versus posting on a wall (could be a specific wall (like a wall of motivation or of testimonies or a generic/global wall)
