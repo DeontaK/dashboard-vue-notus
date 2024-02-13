@@ -19,7 +19,7 @@ Profile
   browse
   los (will show how each person is related to you. When creating profile you are associated to your upline so its easy to show)
 
-Channels -- begins channels content
+Channels -- begins channels content (admin can create,manage, delete, and browse all channels)
   *community
     guidelines
     mission_vision_values
@@ -142,8 +142,8 @@ Channels -- begins channels content
     Manageable Operator
     Association
     Relationship (follower, downline,team member, etc)
-    Team
-    Channel (global, motivation, finance, health, emotional-health, etc)
+    Team ( a person has a specific "team member" association with any respective team)
+    Channel (global, motivation, finance, health, emotional-health, etc) (a channel is just a free entity. Like "I am a channel. If you can get to me you can see me" Visibility restrictions controlled by the "role" on the managable operator.
     Question
     Response
     Event (admin have priviledge on posts and events to turn message into push/bell notification)
