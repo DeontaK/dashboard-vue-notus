@@ -108,4 +108,5 @@ const router = createRouter({
 });
 
 //Actually create the app that uses all of the above available URL routes and router functionality such as web history
+//App is the App.vue file itself and #app is the id of the html component in the file that is used as "what we actually want to see"
 createApp(App).use(router).mount("#app");
