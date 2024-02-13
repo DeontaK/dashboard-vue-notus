@@ -1,0 +1,149 @@
+Harnesses and Routes:
+Admin
+
+Auth
+  login
+  register
+  
+Index
+
+Landing
+
+Profile
+  read-only
+  manage
+  browse
+  los (will show how each person is related to you. When creating profile you are associated to your upline so its easy to show)
+
+Channels -- begins channels content
+  *community
+    guidelines
+    mission_vision_values
+    announcements (annoucement board; some content can also be shown on a banner on the dashboard or global feed or linked in some way) Posts of type announcement 
+      browse
+      create
+      view
+      delete
+      manage
+    questions (wall of questions; can add categories to question instances too)
+      browse
+      create
+      view
+      delete
+      manage
+    response
+      create (tied to a specific question instance)
+      delete
+      manage
+    teams  (admin can manipulate smaller team data)
+      create (create a specific team instance)
+      view  (view a specific team instance)
+      delete (delete a specific team instance)
+      manage (update a specific team instance)
+      browse (lists all teams in the system)
+    team-channel ( list of all the teams you are a part of and their specific walls; like unstoppable stars and the 3rd team)
+    mural-of-time (pictures)
+    global-feed (shows different posts to the global chat in real time)
+  
+
+*new-partners
+    next-steps
+    first-product-order
+    phases-of-business
+    30-dcr
+    90-dcr
+    top-recommended-podcasts
+      view
+      manage (admin privilege)
+    recommended-book-list
+      view
+      manage (admin privilege)
+  
+
+*inspiration_education  (each time a new instance is posted on one of these it could also show on the global feed or could make a post to ref it)
+    motivation
+      create (creates a post associated to the motivation channel)
+      browse
+      delete
+      manage
+    finance
+      create
+      browse
+      delete
+      manage
+    health
+      create
+      browse
+      delete
+      manage
+    emotional-health
+      create
+      browse
+      delete
+      manage
+    misc
+      create
+      browse
+      delete
+      manage
+  
+
+*huddles_events (have route to create instance of event which can also be shown on calendar and have route to display event info specific for that huddle) (other communication can be on a specific team instance)
+    huddle-info
+    kickstart
+      create (admin can book the next event on the calendar; redirects to event creation with team value already filled out)
+      view  (users can see a list of events created for this team)
+      chat (redirects to community chat for this teams instance)
+    team-players
+      create (admin can book the next event on the calendar ; redirects to event creation with team value already filled out)
+      view (users can see a list of events created for this team)
+      chat (redirects to community chat for this teams instance)
+    hustle
+      create (admin can book the next event on the calendar; redirects to event creation with team value already filled out)
+      view (users can see a list of events created for this team)
+      chat (redirects to community chat for this teams instance)
+    event
+      create (admin can book the next event on the calendar)
+      view (display a specific event instance opened from the calendar)
+      chat (redirects to community chat for this event instance)
+  calendar (full calendar)
+                  
+
+  *team-building_revenue
+      resources
+      list
+      craft-your-story
+      conversations
+      in-person-networking
+      meet-and-greet1
+      meet-and-greet2
+      growing-network-tips
+      products-retail-tips
+
+
+*posts (global workflow endpoints for creating etc specific posts) (if coming from a specfic channel or team the associated info should be prepoulated) Everywhere needed will be redirected here
+    create
+     manage
+     delete                                                               
+--ends channels content
+            
+*contact-Us (not under channels)
+  feedback
+  report-bug
+  recommend-podcast
+  recommend-book
+
+
+*Data tables needed
+    Manageable Operator
+    Association
+    Relationship (follower, downline,team member, etc)
+    Team
+    Channel (global, motivation, finance, health, emotional-health, etc)
+    Question
+    Response
+    Event (admin have priviledge on posts and events to turn message into push/bell notification)
+    Feedback
+    Post (posts can be made from a specific operator to a specific team or channel) (admin have priviledge on posts and events to turn message into push/bell notification)
+    Roles (used as foreign key on operator instance; partner, admin, new partner, etc)
+    Notification (notification instance ; send to specific person or distro of people or team, or everyone)
