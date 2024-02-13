@@ -12,7 +12,7 @@
   </div>
 </template>
 <script>
-  //import the files for all the "sections" that we'll be using in this "harness"
+  //import the files for all the "sections" that have the built out global/reusable "controls" that we'll be using in this "harness"
 import AdminNavbar from "@/components/Navbars/AdminNavbar.vue";
 import Sidebar from "@/components/Sidebar/Sidebar.vue";
 import HeaderStats from "@/components/Headers/HeaderStats.vue";
