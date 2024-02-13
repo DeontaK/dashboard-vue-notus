@@ -1,5 +1,9 @@
 Harnesses and Routes:
 Admin
+  dashboard (shows system stats, health, number of users total versus online etc)
+  settings
+  tables (show related data in tables and any needed reportable data)
+  utils
 
 Auth
   login
