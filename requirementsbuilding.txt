@@ -11,7 +11,8 @@ Admin
 Auth
   login
   register {name, ibonumber(username), email, nickname (not required), birthday (not required), upline (used so upline or admin can approve the registration and for los view)}
-  
+  approval dashboard
+
 Index (go here at the beginning when you aren't logged in yet)
 
 Landing (once you are logged in it takes you to the landing page which is like the central hub; choose there you want to go: channels corner, admin corner if applicable, contact us, profile)
