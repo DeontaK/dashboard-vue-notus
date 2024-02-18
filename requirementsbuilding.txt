@@ -10,7 +10,7 @@ Admin
 
 Auth
   login
-  register
+  register {name, ibonumber(username), email, nickname (not required), birthday (not required), upline (used so upline or admin can approve the registration and for los view)}
   
 Index (go here at the beginning when you aren't logged in yet)
 
